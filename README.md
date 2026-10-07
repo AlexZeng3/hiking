@@ -30,6 +30,4 @@ Repository: https://github.com/AlexZeng3/hiking
 
 Expected website URL after Pages is enabled: https://AlexZeng3.github.io/hiking/
 
-## Journal groups
-
-Three visible columns: 🐕 (six walks), 🦊 (empty), and 🐕&🦊 (the original three walks). Cards are sorted newest first within each column. On narrow screens, columns stack in the same order. Global statistics include all nine walks.
+All nine walks appear in one card grid, ordered newest first. The grid adapts from three columns on desktop to one on mobile.
