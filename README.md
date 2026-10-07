@@ -1,6 +1,6 @@
 # Field Notes
 
-A responsive English walking journal, built as a static website with Leaflet 1.9.4 and OpenStreetMap tiles.
+A responsive English walking journal, built as a static website with MapLibre GL JS 5.12.0 and OpenFreeMap vector tiles (OpenStreetMap data).
 
 ## Run locally
 
@@ -16,7 +16,7 @@ Run `python3 -m http.server 8765` and open `http://localhost:8765`.
 - GPX metadata, track names, filenames, creator/device information and extensions are excluded.
 - Exact route coordinates, original dates, timing and elevation are intentionally retained. The source files are not included.
 
-This is a snapshot of the three supplied routes, not a live HealthKit connection. Map tiles require an internet connection. Leaflet is included locally under its license in `vendor/LEAFLET-LICENSE`.
+This is a snapshot of the three supplied routes, not a live HealthKit connection. The map library, vector tiles and fonts require an internet connection. MapLibre is loaded from a pinned CDN version. OpenFreeMap supplies the vector basemap; attribution is displayed on each map. A WebGL-capable browser is required; if unavailable, the route outline remains visible.
 
 ## GitHub Pages
 
