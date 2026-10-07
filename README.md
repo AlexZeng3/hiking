@@ -8,7 +8,7 @@ Run `python3 -m http.server 8765` and open `http://localhost:8765`.
 
 ## Contents
 
-- Four complete GPS tracks, with 21,248 original coordinate points retained.
+- Nine complete GPS tracks, with 49,315 original coordinate points retained.
 - Route cards with seven-second drawing and three-second full-route holds.
 - Individual and global pause controls, enlarged interactive maps, and reduced-motion support.
 - Distances computed from GPS points. Time includes stops; pace uses elapsed time. Values may differ from Fitness.
@@ -16,7 +16,7 @@ Run `python3 -m http.server 8765` and open `http://localhost:8765`.
 - GPX metadata, track names, filenames, creator/device information and extensions are excluded.
 - Exact route coordinates, original dates, timing and elevation are intentionally retained. The source files are not included.
 
-This is a snapshot of the four supplied routes, not a live HealthKit connection. The map library, vector tiles and fonts require an internet connection. MapLibre is loaded from a pinned CDN version. OpenFreeMap supplies the vector basemap; attribution is displayed on each map. A WebGL-capable browser is required; if unavailable, the route outline remains visible.
+This is a snapshot of the nine supplied routes, not a live HealthKit connection. The map library, vector tiles and fonts require an internet connection. MapLibre is loaded from a pinned CDN version. OpenFreeMap supplies the vector basemap; attribution is displayed on each map. A WebGL-capable browser is required; if unavailable, the route outline remains visible.
 
 ## GitHub Pages
 
@@ -29,3 +29,7 @@ Edit `index.html`, `styles.css` and `app.js`. Route data is the explicit allowli
 Repository: https://github.com/AlexZeng3/hiking
 
 Expected website URL after Pages is enabled: https://AlexZeng3.github.io/hiking/
+
+## Journal groups
+
+Three visible columns: 🐕 (six walks), 🦊 (empty), and 🐕&🦊 (the original three walks). Cards are sorted newest first within each column. On narrow screens, columns stack in the same order. Global statistics include all nine walks.
